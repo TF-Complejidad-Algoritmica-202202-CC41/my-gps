@@ -1,0 +1,68 @@
+db.unidades.insertMany(
+[
+    {
+        "id_unidad": NumberInt(1),
+        "unidad": "unidad",
+        "nomenclatura": "u"
+    },
+    {
+        "id_unidad": NumberInt(2),
+        "unidad": "kilogramo",
+        "nomenclatura": "kg"
+    },
+    {
+        "id_unidad": NumberInt(3),
+        "unidad": "taza",
+        "nomenclatura": "tz"
+    },
+    {
+        "id_unidad": NumberInt(4),
+        "unidad": "cucharada",
+        "nomenclatura": "cda"
+    },
+    {
+        "id_unidad": NumberInt(5),
+        "unidad": "cucharadita",
+        "nomenclatura": "cdta"
+    },
+    {
+        "id_unidad": NumberInt(6),
+        "unidad": "cent.cúbicos",
+        "nomenclatura": "cm3"
+    },
+    {
+        "id_unidad": NumberInt(7),
+        "unidad": "gramos",
+        "nomenclatura": "gr"
+    },
+    {
+        "id_unidad": NumberInt(8),
+        "unidad": "onzas",
+        "nomenclatura": "oz"
+    },
+    {
+        "id_unidad": NumberInt(9),
+        "unidad": "mililitro",
+        "nomenclatura": "ml"
+    },
+    {
+        "id_unidad": NumberInt(10),
+        "unidad": "litro",
+        "nomenclatura": "l"
+    },
+    {
+        "id_unidad": NumberInt(11),
+        "unidad": "centigrados",
+        "nomenclatura": "°C"
+    },
+    {
+        "id_unidad": NumberInt(12),
+        "unidad": "fahrenheit",
+        "nomenclatura": "°F"
+    },
+    {
+        "id_unidad": NumberInt(13),
+        "unidad": "libra",
+        "nomenclatura": "lb"
+    }
+])
